@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <article class="music-player">
+
+            <figure class="album-cover">
+                <img src="image/album.jpg" alt="Better days album cover">
+            </figure>
+            <!-- Song information -->
+            <section class="song-info">
+                <h1>Better Days</h1>
+                <p> Ikson</p>
+
+            </section>    
+                
+            
+            <section class="music-progress">
+                <input type="range" min="0" max="100" value="50" aria-label="music progress">
+                <div class="time">
+                    <time>1.42</time>
+                    <time>3.56</time>
+                </div>
+            </section>
+            
+            
+            <nav class="music-controls">
+                <button type="button" aria-label="Shuffle">
+                    <img src="image/clarity--shuffle-line.svg" alt="">
+                </button>
+                <button type="button" aria-label="previous">
+                    <img src="image/famicons--play-skip-back.svg" alt="">
+                </button>
+                <button type="button" aria-label="play/pause">
+                    <img src="image/emojione--pause-button.svg" alt="">
+                </button>
+                <button type="button" aria-label="next">
+                    <img src="image/famicons--play-skip-forward.svg" alt="">
+                </button>
+                <button type="button" aria-label="repeat">
+                    <img src="image/famicons--repeat.svg" alt="">
+                </button>
+            </nav>
+        </article>
+    </main>
+    
+</body>
+</html>
